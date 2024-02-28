@@ -39,12 +39,30 @@ Each Excel file follows a similar structure with columns providing information a
  3. New Car Specs :
      To extract specific features from the 'new_car_detail' column in the dataset reate new columns for mileage, engine, max power, torque,Seats.
 
+**Handling Null Values:**
+The dataset may contain missing values that need to be addressed. The choice of handling these null values, whether through mean, median, or mode imputation, depends on the nature of the data and the specific feature.
+
+**Encoding and Data :**
+Encode categorical variables using suitable techniques, such as ,mapping method based on their nature and relationship with the target variable.
+
+**Outliers Handling:** 
+Outliers can significantly impact model performance. We tackle outliers in our data by using the Interquartile Range (IQR) method. 
+
 # Regression:
 
 **Algorithm Selection:** After thorough evaluation, Random Forest Regressor, demonstrate commendable testing accuracy. Upon checking for any overfitting issues in both training and testing, both models exhibit strong performance without overfitting concerns. I choose the Random Forest Regressor for its ability to strike a balance between interpretability and accuracy, ensuring robust performance on unseen data.
 
 **Hyperparameter Tuning with GridSearchCV and Cross-Validation:** To fine-tune our model and mitigate overfitting, we employ GridSearchCV with cross-validation for hyperparameter tuning. This function allows us to systematically explore multiple parameter values and return the optimal set of parameters. {'max_depth': 20, 'max_features': log2, 'min_samples_leaf': 1, 'min_samples_split': 2,n_estimators =50}.
 
+**Contributing**
+
+Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
+
+**Contact**
+
+📧 Email: thangamani1128@gmail.com
+
+For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
 
     
   
