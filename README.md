@@ -14,15 +14,10 @@ This project utilizes the following key technologies and skills:
    7. **Pickle:**
    8. **Streamlit:**
 
-
-
-
-
-
 # Dataset Overview:
 The dataset is organized into multiple Excel files, with each file representing a specific city. Each Excel file provides a comprehensive overview of cars, including details, specifications, and available features. Below is a guide on how to handle and analyze these files:
 
-## Excel File Structure
+# Excel File Structure
 
 Each Excel file follows a similar structure with columns providing information about different aspects of the cars. Here's an overview of the typical structure:
 
@@ -38,7 +33,7 @@ Each Excel file follows a similar structure with columns providing information a
 4. **Car Specs Sheet:**
    - Presents specifications of the cars, including headings, top specifications like mileage, engine, max power, torque, etc., and detailed engine and transmission information, dimensions, capacity, and miscellaneous details.
 
-### Data Extraction:
+## Data Extraction:
  1. New Car Detail:
     To extract specific features from the 'new_car_detail' column in the dataset,  create new columns for 'Fuel_Type,' 'Body_Type,' 'Mileage_km,' 'Transmission type,' 'Number owner,' 'OEM,' 'Car model,' 'modelYear,' 'centralVariantId,' 'variantName,' and 'price'
  3. New Car Specs :
