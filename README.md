@@ -22,5 +22,9 @@ Each Excel file follows a similar structure with columns providing information a
 4. **Car Specs Sheet:**
    - Presents specifications of the cars, including headings, top specifications like mileage, engine, max power, torque, etc., and detailed engine and transmission information, dimensions, capacity, and miscellaneous details.
 
-5. **Car Links Sheet:**
-   - Provides URLs pointing to additional details about the cars.
+### Data Extraction:
+ 1. New Car Detail:
+    To extract specific features from the 'new_car_detail' column in the dataset,  create new columns for 'Fuel_Type,' 'Body_Type,' 'Mileage_km,' 'Transmission type,' 'Number owner,' 'OEM,' 'Car model,' 'modelYear,' 'centralVariantId,' 'variantName,' and 'price'
+ 3. New Car Specs 
+
+
